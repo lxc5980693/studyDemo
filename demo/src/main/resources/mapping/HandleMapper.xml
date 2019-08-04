@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.HandleMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.model.Handle">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="handle_name" jdbcType="VARCHAR" property="handleName" />
+    <result column="handle_id" jdbcType="VARCHAR" property="handleId" />
+    <result column="prev_handle_id" jdbcType="VARCHAR" property="prevHandleId" />
+    <result column="next_handle_id" jdbcType="VARCHAR" property="nextHandleId" />
+  </resultMap>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from handle
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+  <insert id="insert" parameterType="com.example.demo.model.Handle">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into handle (handle_name, handle_id, prev_handle_id, 
+      next_handle_id)
+    values (#{handleName,jdbcType=VARCHAR}, #{handleId,jdbcType=VARCHAR}, #{prevHandleId,jdbcType=VARCHAR}, 
+      #{nextHandleId,jdbcType=VARCHAR})
+  </insert>
+
+  <update id="updateByPrimaryKey" parameterType="com.example.demo.model.Handle">
+    update handle
+    set handle_name = #{handleName,jdbcType=VARCHAR},
+      handle_id = #{handleId,jdbcType=VARCHAR},
+      prev_handle_id = #{prevHandleId,jdbcType=VARCHAR},
+      next_handle_id = #{nextHandleId,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, handle_name, handle_id, prev_handle_id, next_handle_id
+    from handle
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+
+  <select id="seletByHandleId" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select id,handle_name,handle_id,prev_handle_id,next_handle_id
+    from handle
+    where handle_id = #{handleId}
+  </select>
+
+  <select id="seletFirstHandle" resultMap="BaseResultMap">
+    select id,handle_name,handle_id,prev_handle_id,next_handle_id
+    from handle
+    where prev_handle_id is null
+  </select>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, handle_name, handle_id, prev_handle_id, next_handle_id
+    from handle
+  </select>
+</mapper>
