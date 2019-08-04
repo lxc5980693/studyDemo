@@ -2,9 +2,9 @@ package com.example.demo.Enum;
 
 public enum PayStrategyEnum {
 
-    ALI_PAY("com.example.demo.service.impl.AliPayStrategy"),
+    ALI_PAY("com.example.demo.service.impl.strategy.AliPayStrategy"),
 
-    WEIXIN_PAY("com.example.demo.service.impl.WeixinPayStrategy");
+    WEIXIN_PAY("com.example.demo.service.impl.strategy.WeixinPayStrategy");
 
     private String path;
 
