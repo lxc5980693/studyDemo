@@ -19,15 +19,15 @@ public class PayStrategyFactory {
             return null;
         }
 //        String path = PayStrategyEnum.valueOf(payCode).getPath();
-        Strategy strategyDO = strategyMapper.selectByStrategyName(payCode);
-        if (null == strategyDO) {
+        Strategy strategy = strategyMapper.selectByName(payCode);
+        if (null == strategy) {
             System.out.println("不存在该策略类");
             return null;
         }
         try {
 //            Class<?> aClass = Class.forName(path);
 //            PayStrategy payStrategy = (PayStrategy) aClass.newInstance();
-            PayStrategy bean = (PayStrategy)SpringUtils.getBean(strategyDO.getClassPath());
+            PayStrategy bean = (PayStrategy)SpringUtils.getBean(strategy.getClassPath());
             return bean;
         } catch (Exception e) {
             return null;
