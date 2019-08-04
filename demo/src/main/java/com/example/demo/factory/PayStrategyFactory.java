@@ -1,9 +1,9 @@
-package com.example.demo.mode.strategy.factory;
+package com.example.demo.factory;
 
-import com.example.demo.mode.strategy.mapper.StrategyMapper;
-import com.example.demo.mode.strategy.model.Strategy;
-import com.example.demo.mode.strategy.service.PayStrategy;
-import com.example.demo.mode.strategy.utils.SpringUtils;
+import com.example.demo.mapper.StrategyMapper;
+import com.example.demo.model.Strategy;
+import com.example.demo.service.PayStrategy;
+import com.example.demo.util.SpringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;

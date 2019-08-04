@@ -1,6 +1,6 @@
-package com.example.demo.mode.strategy.api;
+package com.example.demo.api;
 
-import com.example.demo.mode.strategy.context.PayStrategyContext;
+import com.example.demo.context.PayStrategyContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

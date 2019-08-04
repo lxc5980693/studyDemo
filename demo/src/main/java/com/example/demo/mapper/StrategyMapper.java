@@ -1,6 +1,6 @@
-package com.example.demo.mode.strategy.mapper;
+package com.example.demo.mapper;
 
-import com.example.demo.mode.strategy.model.Strategy;
+import com.example.demo.model.Strategy;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

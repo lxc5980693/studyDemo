@@ -1,4 +1,4 @@
-package com.example.demo.mode.strategy.service;
+package com.example.demo.service;
 
 public interface PayStrategy {
 

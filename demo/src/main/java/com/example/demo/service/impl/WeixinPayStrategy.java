@@ -1,6 +1,6 @@
-package com.example.demo.mode.strategy.service.impl;
+package com.example.demo.service.impl;
 
-import com.example.demo.mode.strategy.service.PayStrategy;
+import com.example.demo.service.PayStrategy;
 import org.springframework.stereotype.Component;
 
 @Component
