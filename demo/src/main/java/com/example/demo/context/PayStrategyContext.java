@@ -1,7 +1,7 @@
 package com.example.demo.context;
 
 import com.example.demo.factory.PayStrategyFactory;
-import com.example.demo.service.PayStrategy;
+import com.example.demo.service.strategy.impl.PayStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;

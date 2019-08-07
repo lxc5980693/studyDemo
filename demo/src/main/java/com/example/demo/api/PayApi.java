@@ -12,9 +12,9 @@ public class PayApi {
     @Autowired
     private PayStrategyContext payStrategyContext;
 
-    @RequestMapping(value = "/pay",method = RequestMethod.GET)
-    public String pay(String payCode){
-       return payStrategyContext.toPayHtml(payCode);
+    @RequestMapping(value = "/pay", method = RequestMethod.GET)
+    public String pay(String payCode) {
+        return payStrategyContext.toPayHtml(payCode);
     }
 
 }

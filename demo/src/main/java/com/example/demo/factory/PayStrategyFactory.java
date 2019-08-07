@@ -2,7 +2,7 @@ package com.example.demo.factory;
 
 import com.example.demo.mapper.StrategyMapper;
 import com.example.demo.model.Strategy;
-import com.example.demo.service.PayStrategy;
+import com.example.demo.service.strategy.impl.PayStrategy;
 import com.example.demo.util.SpringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

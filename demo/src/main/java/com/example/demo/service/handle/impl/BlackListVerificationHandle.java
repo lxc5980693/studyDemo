@@ -1,6 +1,6 @@
-package com.example.demo.service.impl.handle;
+package com.example.demo.service.handle.impl;
 
-import com.example.demo.service.GetWayHandle;
+import com.example.demo.service.handle.GetWayHandle;
 import org.springframework.stereotype.Component;
 
 @Component

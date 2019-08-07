@@ -1,8 +1,8 @@
-package com.example.demo.service.impl.handle;
+package com.example.demo.service.handle.impl;
 
 import com.example.demo.mapper.HandleMapper;
 import com.example.demo.model.Handle;
-import com.example.demo.service.GetWayHandle;
+import com.example.demo.service.handle.GetWayHandle;
 import com.example.demo.util.SpringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

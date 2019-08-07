@@ -1,13 +1,8 @@
 package com.example.demo.factory;
 
-import com.example.demo.mapper.HandleMapper;
-import com.example.demo.model.Handle;
-import com.example.demo.service.GetWayHandle;
-import com.example.demo.service.impl.handle.AccountVerificationHandle;
-import com.example.demo.service.impl.handle.BlackListVerificationHandle;
-import com.example.demo.service.impl.handle.PermissionVerificationHandle;
-import com.example.demo.util.SpringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.demo.service.handle.impl.AccountVerificationHandle;
+import com.example.demo.service.handle.impl.BlackListVerificationHandle;
+import com.example.demo.service.handle.impl.PermissionVerificationHandle;
 
 public class HandleFactory {
 
