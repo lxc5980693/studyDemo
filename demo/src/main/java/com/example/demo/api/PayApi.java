@@ -16,5 +16,4 @@ public class PayApi {
     public String pay(String payCode) {
         return payStrategyContext.toPayHtml(payCode);
     }
-
 }

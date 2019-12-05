@@ -11,11 +11,11 @@ import net.sf.cglib.proxy.Enhancer;
 public class Test {
     public static void main(String[] args) {
         //靜態代理（實現接口模式）
-        OrderServiceProxyByInterface orderServiceProxyByInterface = new OrderServiceProxyByInterface(new OrderServiceImpl());
-        orderServiceProxyByInterface.order();
+//        OrderServiceProxyByInterface orderServiceProxyByInterface = new OrderServiceProxyByInterface(new OrderServiceImpl());
+//        orderServiceProxyByInterface.order();
         //靜態代理（繼承類模式）
-        OrderServiceProxyByClass orderServiceProxyByClass = new OrderServiceProxyByClass();
-        orderServiceProxyByClass.order();
+//        OrderServiceProxyByClass orderServiceProxyByClass = new OrderServiceProxyByClass();
+//        orderServiceProxyByClass.order();
 
         //jdk動態代理
         System.getProperties().setProperty("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
@@ -23,11 +23,11 @@ public class Test {
         proxy.order();
 
         //cglib動態代理
-        CglibProxyMethod cglibProxyMethod = new CglibProxyMethod();
-        Enhancer enhancer = new Enhancer();
-        enhancer.setSuperclass(OrderServiceImpl.class);
-        enhancer.setCallback(cglibProxyMethod);
-        OrderServiceImpl o = (OrderServiceImpl) enhancer.create();
-        o.order();
+//        CglibProxyMethod cglibProxyMethod = new CglibProxyMethod();
+//        Enhancer enhancer = new Enhancer();
+//        enhancer.setSuperclass(OrderServiceImpl.class);
+//        enhancer.setCallback(cglibProxyMethod);
+//        OrderServiceImpl o = (OrderServiceImpl) enhancer.create();
+//        o.order();
     }
 }
