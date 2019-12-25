@@ -1,16 +1,12 @@
 package com.sihui.demo.bio;
 
-import org.springframework.util.StringUtils;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileOutputStream;
-import java.io.FilterOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.io.PrintWriter;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.util.Scanner;
 
 /**
  * @ProjectName: mybatis-plus-demo
@@ -22,7 +18,6 @@ import java.net.Socket;
  * @Version: 1.0
  */
 public class ClientA {
-    private static final String DEFAULT_HOST = "127.0.0.1";
     private static final int DEFAULT_PORT = 12345;
 
     private static Socket socket;
@@ -32,38 +27,16 @@ public class ClientA {
     }
 
     private static void sendMessage(int port, String msg) {
-        PrintStream bufferedWriter = null;
-        BufferedReader bufferedReader = null;
         try {
-            socket = new Socket(DEFAULT_HOST, port);
-            bufferedWriter = new PrintStream(socket.getOutputStream(), true);
-            bufferedWriter.println(msg);
-
-            bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            String s = bufferedReader.readLine();
-            if (!StringUtils.isEmpty(s)) {
-                System.out.println("客户端接收来自服务端的消息：" + s);
+            socket = new Socket();
+            InetSocketAddress inetSocketAddress = new InetSocketAddress(InetAddress.getLocalHost(),DEFAULT_PORT);
+            socket.connect(inetSocketAddress);
+            while (true){
+                Scanner scanner = new Scanner(System.in);
+                socket.getOutputStream().write(scanner.next().getBytes());
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (bufferedWriter != null){
-                bufferedWriter.close();
-            }
-            if (bufferedReader != null){
-                try {
-                    bufferedReader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            if (socket != null){
-                try {
-                    socket.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
     }
 }

@@ -1,12 +1,7 @@
 package com.sihui.demo.bio;
 
-import com.sihui.demo.bio.handle.ServerHandle;
-
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -22,24 +17,26 @@ import java.net.Socket;
 public class Server {
 
     private static final int DEFAULT_PORT = 12345;
-
     private static ServerSocket serverSocket;
+    private static byte[] BYTES = new byte[100];
 
     public static void main(String[] args) {
-        start(DEFAULT_PORT);
-    }
-
-    private static void start(int port) {
-
         try {
             serverSocket = new ServerSocket(DEFAULT_PORT);
-            while (true){
-                new Thread(new ServerHandle(serverSocket.accept())).start();
+            System.out.println("开始接收客户端请求。");
+            Socket accept = serverSocket.accept();
+            while (true) {
+                InputStream inputStream = accept.getInputStream();
+                int read = inputStream.read(BYTES);
+                if (read != -1){
+                    String msg = new String(BYTES, 0, read);
+                    System.out.println("接收到来自客户端的消息：" + msg);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (serverSocket != null){
+            if (serverSocket != null) {
                 try {
                     serverSocket.close();
                 } catch (IOException e) {
