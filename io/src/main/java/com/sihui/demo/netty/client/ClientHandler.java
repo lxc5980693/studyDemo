@@ -1,10 +1,10 @@
 package com.sihui.demo.netty.client;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
+import com.sihui.demo.MsgEntity;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.util.CharsetUtil;
+
+import java.util.UUID;
 
 /**
  * @ProjectName: io
@@ -15,7 +15,7 @@ import io.netty.util.CharsetUtil;
  * @Date: 2020-03-02  16:52
  * @Version: 1.0
  */
-public class ClientHandler extends SimpleChannelInboundHandler<String> {
+public class ClientHandler extends SimpleChannelInboundHandler<Object> {
     /**
      * 发送消息
      *
@@ -27,8 +27,13 @@ public class ClientHandler extends SimpleChannelInboundHandler<String> {
         /**
          * 模拟粘包和拆包的场景
          */
-//        ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个什么？\n", CharsetUtil.UTF_8));
-        ctx.writeAndFlush("李呱呱是个什么?\n");
+//        for (int i=0;i<10;i++){
+//          ctx.writeAndFlush(Unpooled.copiedBuffer("李呱么？\n", CharsetUtil.UTF_8));
+//        }
+
+        //客户端将对象转换成JSON
+        MsgEntity msgEntity = new MsgEntity("李呱呱真的牛逼", UUID.randomUUID().toString());
+        ctx.writeAndFlush(msgEntity);
     }
 
     /**
@@ -39,7 +44,7 @@ public class ClientHandler extends SimpleChannelInboundHandler<String> {
      * @throws Exception
      */
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
 //        ByteBuf byteBuf = (ByteBuf) msg;
 //        String response = byteBuf.toString(CharsetUtil.UTF_8);
         System.out.println("客户端获取到服务器端的消息：" + msg);

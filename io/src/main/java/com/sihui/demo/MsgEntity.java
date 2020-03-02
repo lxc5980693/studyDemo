@@ -1,6 +1,6 @@
 package com.sihui.demo;
 
-import java.io.Serializable;
+import org.msgpack.annotation.Message;
 
 /**
  * @ProjectName: io
@@ -11,9 +11,14 @@ import java.io.Serializable;
  * @Date: 2020-03-02  18:01
  * @Version: 1.0
  */
-public class MsgEntity implements Serializable {
+@Message
+public class MsgEntity {
     private String messageContext;
-    private transient String msgId;
+    private String msgId;
+
+    public MsgEntity() {
+
+    }
 
     public MsgEntity(String messageContext, String msgId) {
         this.messageContext = messageContext;
@@ -26,5 +31,21 @@ public class MsgEntity implements Serializable {
                 "messageContext='" + messageContext + '\'' +
                 ", msgId='" + msgId + '\'' +
                 '}';
+    }
+
+    public String getMessageContext() {
+        return messageContext;
+    }
+
+    public void setMessageContext(String messageContext) {
+        this.messageContext = messageContext;
+    }
+
+    public String getMsgId() {
+        return msgId;
+    }
+
+    public void setMsgId(String msgId) {
+        this.msgId = msgId;
     }
 }

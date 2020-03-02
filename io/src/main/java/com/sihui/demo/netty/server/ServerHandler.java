@@ -1,5 +1,7 @@
 package com.sihui.demo.netty.server;
 
+import com.alibaba.fastjson.JSONObject;
+import com.sihui.demo.MsgEntity;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
@@ -12,7 +14,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
  * @Date: 2020-03-02  16:14
  * @Version: 1.0
  */
-public class ServerHandler extends SimpleChannelInboundHandler<String> {
+public class ServerHandler extends SimpleChannelInboundHandler<Object> {
 
     /**
      * 获取数据
@@ -22,13 +24,11 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
      * @throws Exception
      */
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-//        ByteBuf byteBuf = (ByteBuf)msg;
-//        String request = byteBuf.toString(CharsetUtil.UTF_8);
+    protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         System.out.println("request: " + msg);
 
         //响应代码
 //        ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个大怂逼\n", CharsetUtil.UTF_8));
-        ctx.writeAndFlush("李呱呱是个大怂逼\n");
+//        ctx.writeAndFlush("李呱呱是个大怂逼\n");
     }
 }

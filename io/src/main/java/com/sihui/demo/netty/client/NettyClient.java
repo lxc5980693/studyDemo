@@ -1,5 +1,6 @@
 package com.sihui.demo.netty.client;
 
+import com.sihui.demo.netty.coder.MessageEncoder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -30,9 +31,10 @@ public class NettyClient {
                 .handler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {
-                        ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
-                        ch.pipeline().addLast(new StringEncoder());
-                        ch.pipeline().addLast(new StringDecoder());
+//                        ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
+//                        ch.pipeline().addLast(new StringEncoder());
+////                        ch.pipeline().addLast(new StringDecoder());
+                        ch.pipeline().addLast(new MessageEncoder());
                         ch.pipeline().addLast(new ClientHandler());
                     }
                 });

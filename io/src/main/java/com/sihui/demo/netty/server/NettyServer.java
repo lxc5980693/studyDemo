@@ -1,5 +1,6 @@
 package com.sihui.demo.netty.server;
 
+import com.sihui.demo.netty.coder.MessageDecoder;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -47,9 +48,10 @@ public class NettyServer {
 
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {
-                        ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
-                        ch.pipeline().addLast(new StringEncoder());
-                        ch.pipeline().addLast(new StringDecoder());
+//                        ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
+//                        ch.pipeline().addLast(new StringEncoder());
+//                        ch.pipeline().addLast(new StringDecoder());
+                        ch.pipeline().addLast(new MessageDecoder());
                         //处理每个请求的handler
                         ch.pipeline().addLast(new ServerHandler());
                     }
