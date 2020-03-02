@@ -7,6 +7,8 @@ import io.netty.channel.ServerChannel;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.string.StringEncoder;
 
 /**
  * @ProjectName: io
@@ -45,6 +47,8 @@ public class NettyServer {
 
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {
+                        ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
+                        ch.pipeline().addLast(new StringEncoder());
                         //处理每个请求的handler
                         ch.pipeline().addLast(new ServerHandler());
                     }

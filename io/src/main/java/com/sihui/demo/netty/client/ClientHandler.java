@@ -18,16 +18,23 @@ import io.netty.util.CharsetUtil;
 public class ClientHandler extends SimpleChannelInboundHandler {
     /**
      * 发送消息
+     *
      * @param ctx
      * @throws Exception
      */
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个什么？", CharsetUtil.UTF_8));
+        /**
+         * 模拟粘包和拆包的场景
+         */
+        for (int i = 0; i < 10; i++) {
+            ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个什么？\n", CharsetUtil.UTF_8));
+        }
     }
 
     /**
      * 获取消息
+     *
      * @param ctx
      * @param msg
      * @throws Exception

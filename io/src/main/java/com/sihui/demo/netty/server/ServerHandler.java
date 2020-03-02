@@ -30,6 +30,6 @@ public class ServerHandler extends SimpleChannelInboundHandler {
         System.out.println("request: " + request);
 
         //响应代码
-        ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个大怂逼", CharsetUtil.UTF_8));
+        ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个大怂逼\n", CharsetUtil.UTF_8));
     }
 }
