@@ -3,11 +3,11 @@ package com.sihui.demo.netty.server;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ServerChannel;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 /**
@@ -49,6 +49,7 @@ public class NettyServer {
                     protected void initChannel(SocketChannel ch) throws Exception {
                         ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
                         ch.pipeline().addLast(new StringEncoder());
+                        ch.pipeline().addLast(new StringDecoder());
                         //处理每个请求的handler
                         ch.pipeline().addLast(new ServerHandler());
                     }

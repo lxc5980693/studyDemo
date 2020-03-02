@@ -15,7 +15,7 @@ import io.netty.util.CharsetUtil;
  * @Date: 2020-03-02  16:52
  * @Version: 1.0
  */
-public class ClientHandler extends SimpleChannelInboundHandler {
+public class ClientHandler extends SimpleChannelInboundHandler<String> {
     /**
      * 发送消息
      *
@@ -27,9 +27,8 @@ public class ClientHandler extends SimpleChannelInboundHandler {
         /**
          * 模拟粘包和拆包的场景
          */
-        for (int i = 0; i < 10; i++) {
-            ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个什么？\n", CharsetUtil.UTF_8));
-        }
+//        ctx.writeAndFlush(Unpooled.copiedBuffer("李呱呱是个什么？\n", CharsetUtil.UTF_8));
+        ctx.writeAndFlush("李呱呱是个什么?\n");
     }
 
     /**
@@ -40,9 +39,9 @@ public class ClientHandler extends SimpleChannelInboundHandler {
      * @throws Exception
      */
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-        ByteBuf byteBuf = (ByteBuf) msg;
-        String response = byteBuf.toString(CharsetUtil.UTF_8);
-        System.out.println("客户端获取到服务器端的消息：" + response);
+    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+//        ByteBuf byteBuf = (ByteBuf) msg;
+//        String response = byteBuf.toString(CharsetUtil.UTF_8);
+        System.out.println("客户端获取到服务器端的消息：" + msg);
     }
 }
