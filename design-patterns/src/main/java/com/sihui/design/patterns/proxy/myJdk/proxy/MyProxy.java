@@ -3,7 +3,6 @@ package com.sihui.design.patterns.proxy.myJdk.proxy;
 import com.sihui.design.patterns.proxy.classLoad.JavaClassLoader;
 import com.sihui.design.patterns.proxy.myJdk.MyExtJdkInvocationHandler;
 import com.sihui.design.patterns.proxy.myJdk.service.UserService;
-import sun.plugin2.liveconnect.JavaClass;
 
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
