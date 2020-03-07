@@ -1,12 +1,7 @@
 package com.sihui.design.patterns.proxy;
 
 import com.sihui.design.patterns.proxy.dynamicProxy.CglibDynamicProxy;
-import com.sihui.design.patterns.proxy.dynamicProxy.JDKDynamicProxy;
-import com.sihui.design.patterns.proxy.service.OrderService;
 import com.sihui.design.patterns.proxy.service.impl.OrderServiceClass;
-import com.sihui.design.patterns.proxy.service.impl.OrderServiceImpl;
-import com.sihui.design.patterns.proxy.staticProxy.OrderServiceExtendProxy;
-import com.sihui.design.patterns.proxy.staticProxy.OrderServiceImplProxy;
 import net.sf.cglib.core.DebuggingClassWriter;
 import net.sf.cglib.proxy.Enhancer;
 
@@ -15,7 +10,7 @@ import net.sf.cglib.proxy.Enhancer;
  * @Package: com.sihui.design.patterns.proxy
  * @ClassName: Test
  * @Author: lixuanchen
- * @Description: ${description}
+ * @Description: 代理模式
  * @Date: 2020-03-05  21:18
  * @Version: 1.0
  */

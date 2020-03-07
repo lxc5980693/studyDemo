@@ -7,7 +7,7 @@ import com.sihui.design.patterns.status.context.StatusContext;
  * @Package: com.sihui.design.patterns.status
  * @ClassName: Test
  * @Author: lixuanchen
- * @Description: ${description}
+ * @Description: 状态模式
  * @Date: 2020-03-07  17:22
  * @Version: 1.0
  */

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Package: com.sihui.design.patterns.observer.controller
  * @ClassName: OrderController
  * @Author: lixuanchen
- * @Description: ${description}
+ * @Description: 观察者模式
  * @Date: 2020-03-07  16:10
  * @Version: 1.0
  */
