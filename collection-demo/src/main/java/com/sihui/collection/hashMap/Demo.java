@@ -1,6 +1,7 @@
 package com.sihui.collection.hashMap;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 /**
@@ -17,8 +18,11 @@ public class Demo {
     private static final int MAXIMUM_CAPACITY = 1 << 30;
 
     public static void main(String[] args) {
-        Map<String, String> stringStringHashMap = new HashMap<String, String>(1000);
-       System.out.println(tableSizeFor(16));
+        Map<String, String> stringStringHashMap = new HashMap<String, String>();
+        Hashtable<String, String> stringStringHashtable = new Hashtable<String, String>();
+        stringStringHashtable.put("aaa", "bbb");
+        System.out.println(tableSizeFor(1000));
+       System.out.println(2^1024);
     }
 
     static final int tableSizeFor(int cap) {
