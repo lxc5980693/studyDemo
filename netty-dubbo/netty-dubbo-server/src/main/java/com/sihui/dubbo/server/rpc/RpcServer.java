@@ -2,6 +2,7 @@ package com.sihui.dubbo.server.rpc;
 
 import com.sihui.dubbo.common.annotation.RpcAnnotation;
 import com.sihui.dubbo.server.handle.DubboServerHandle;
+import com.sihui.dubbo.server.marshalling.MarshallingCodeCFactory;
 import com.sihui.dubbo.server.regist.ServiceRegister;
 import com.sihui.dubbo.server.regist.impl.ServiceRegisterImpl;
 import io.netty.bootstrap.ServerBootstrap;
@@ -38,7 +39,7 @@ public class RpcServer {
      */
     private int port;
 
-    private static Map<String,Object> maps = new ConcurrentHashMap<String,Object>();
+    private Map<String, Object> maps = new ConcurrentHashMap<String, Object>();
 
     public RpcServer(String host, int port) {
         this.host = host;
@@ -57,11 +58,17 @@ public class RpcServer {
             throw new Exception("interface lack annocation...");
         }
         //获取serviceName
-        String serviceName = rpcAnnotation.value().getClass().getName();
+        Class value = rpcAnnotation.value();
+        String serviceName = value.getName();
         //拼接服务地址
         String serviceAddr = "sihui://" + host + ":" + port;
         serviceRegister.regist(serviceName, serviceAddr);
         maps.put(serviceName, object);
+    }
+
+    public void start(Object object) throws Exception {
+        bind(object);
+        nettyStart();
     }
 
     /**
@@ -70,7 +77,7 @@ public class RpcServer {
     /**
      * 开启netty 服务器端开启监听
      */
-    public void start() {
+    private void nettyStart() {
         //Boss线程池 专门接收连接请求
         NioEventLoopGroup bossExecutors = new NioEventLoopGroup();
 
@@ -84,14 +91,16 @@ public class RpcServer {
                 .childHandler(new ChannelInitializer<SocketChannel>() {
 
                     @Override
-                    protected void initChannel(SocketChannel ch){
+                    protected void initChannel(SocketChannel ch) {
+                        ch.pipeline().addLast(MarshallingCodeCFactory.buildMarshallingEncoder());
+                        ch.pipeline().addLast(MarshallingCodeCFactory.buildMarshallingDecoder());
                         ch.pipeline().addLast(new DubboServerHandle(maps));
                     }
                 });
         try {
             //绑定端口号
             ChannelFuture channelFuture = serverBootstrap.bind(port).sync();
-            System.out.println("服务器启动成功，端口号：" + port);
+            System.out.println("服务器启动成功，ip:+" + host + "端口号：" + port);
             channelFuture.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();

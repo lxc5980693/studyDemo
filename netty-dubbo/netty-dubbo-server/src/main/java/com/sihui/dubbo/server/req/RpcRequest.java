@@ -1,6 +1,7 @@
 package com.sihui.dubbo.server.req;
 
 import java.io.Serializable;
+import java.util.Arrays;
 
 /**
  * @ProjectName: netty-dubbo
@@ -59,5 +60,15 @@ public class RpcRequest implements Serializable {
 
     public Object[] getParamsValue() {
         return paramsValue;
+    }
+
+    @Override
+    public String toString() {
+        return "RpcRequest{" +
+                "className='" + className + '\'' +
+                ", methodName='" + methodName + '\'' +
+                ", parameterTypes=" + Arrays.toString(parameterTypes) +
+                ", paramsValue=" + Arrays.toString(paramsValue) +
+                '}';
     }
 }
