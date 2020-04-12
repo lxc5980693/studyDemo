@@ -18,7 +18,7 @@ public interface UserService {
      * @param id
      * @return
      */
-    String getUser(String id);
+    UserEntity getUser(String id);
 
     /**
      *  @Author  lixuanchen

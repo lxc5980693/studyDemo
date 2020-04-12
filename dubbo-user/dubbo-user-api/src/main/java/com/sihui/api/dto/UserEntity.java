@@ -2,7 +2,8 @@ package com.sihui.api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
 
 /**
  * @ProjectName: dubbouser
@@ -15,7 +16,7 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @AllArgsConstructor
-public class UserEntity {
+public class UserEntity implements Serializable {
     /**
      * 编号
      */
@@ -32,4 +33,14 @@ public class UserEntity {
      * 地址
      */
     private String address;
+
+    @Override
+    public String toString() {
+        return "UserEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }

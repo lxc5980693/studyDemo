@@ -32,13 +32,11 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
-    public String getUser(String id) {
+    public UserEntity getUser(String id) {
         if (StringUtils.isEmpty(id)) {
             return null;
         }
-        TUser tUser = tUserService.queryById(Long.valueOf(id));
-//        return new UserEntity(tUser.getId(), tUser.getName(), tUser.getAge(), tUser.getAddress());
-        return null;
+        return new UserEntity(1L, "lixuanchen", "25", "湖北省荆州市公安县斗湖堤镇");
     }
 
     /**

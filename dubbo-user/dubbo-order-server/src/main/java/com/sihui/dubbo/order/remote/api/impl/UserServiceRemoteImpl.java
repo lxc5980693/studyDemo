@@ -19,12 +19,7 @@ public class UserServiceRemoteImpl implements UserRemoteService {
     private UserService userService;
 
     public UserEntity getUser(Long id) {
-        String user = userService.getUser(String.valueOf(id));
+        UserEntity user = userService.getUser(String.valueOf(id));
         return null;
-    }
-
-    public static void main(String[] args) {
-        UserService proxy = RpcClientProxy.createProxy(UserService.class);
-        System.out.println(proxy.getUser("1"));
     }
 }
