@@ -20,7 +20,7 @@ public class MybatisApplication {
         SqlSessionFactory build =
                 new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = build.openSession(ExecutorType.SIMPLE);
-        sqlSession.getClass().getClassLoader();
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         List<User> users = mapper.selectAll();
         System.out.println(users.toString());
