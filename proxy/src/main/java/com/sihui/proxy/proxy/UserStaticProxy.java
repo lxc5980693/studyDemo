@@ -3,6 +3,8 @@ package com.sihui.proxy.proxy;
 import com.sihui.proxy.entity.User;
 import com.sihui.proxy.service.UserService;
 
+import java.util.List;
+
 /**
  * @ProjectName: proxy
  * @Package: com.sihui.proxy.proxy
@@ -34,5 +36,18 @@ public class UserStaticProxy implements UserService {
         User user = target.getUser();
         System.out.println("UserStaticProxy 执行后。。。。");
         return user;
+    }
+
+    /**
+     * @Author lixuanchen
+     * @Version 1.0
+     * @Description 获取用户信息
+     * @Return com.sihui.proxy.entity.User
+     * @Exception
+     * @Date 2019-12-09  15:56
+     */
+    @Override
+    public List<User> getAllUser() {
+        return null;
     }
 }

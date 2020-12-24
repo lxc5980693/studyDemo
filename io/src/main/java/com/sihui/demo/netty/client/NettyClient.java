@@ -7,9 +7,6 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.LineBasedFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
 
 /**
  * @ProjectName: io
@@ -27,7 +24,7 @@ public class NettyClient {
         //创建一个bootstrap
         Bootstrap bootstrap = new Bootstrap();
         bootstrap.group(eventExecutors).channel(NioSocketChannel.class)
-                .remoteAddress("127.0.0.1", 8080)
+                .remoteAddress("localhost", 9092)
                 .handler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel ch) throws Exception {

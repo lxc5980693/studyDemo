@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b1f26e6-1b3d-49bb-bbda-40ccb5b7e3a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/agent-demo/src/main/java/com/sihui/agent/demo/service/TestAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/.idea/artifacts/agent_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/src/com/sihui/agent/TestAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/EasyCodeConfig/test-t_user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/dataSources/8e11a206-7661-404f-91bf-7f51d663c9c9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application-gui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application-gui/src/main/java/com/sihui/firstspringbootapplicationgui/FirstSpringBootApplicationGuiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application-gui/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application-gui/src/test/java/com/sihui/firstspringbootapplicationgui/FirstSpringBootApplicationGuiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application/src/main/java/com/sihui/spring/boot/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-spring-boot-application/src/test/java/com/sihui/spring/boot/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/base/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/base/Fetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/base/FetcherCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/base/MyFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/base/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/localThread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/localThread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/nio/ObjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/com/sihui/main/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/model/UserBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/model/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-dubbo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-dubbo/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-dubbo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-dubbo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-dubbo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-dubbo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sihui_thread/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sihui_thread/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sihui_thread/src/com/sihui/lock/MyLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_demo/src/main/java/com/lixuanchen/algorithm/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_demo/src/main/java/com/lixuanchen/algorithm/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-demo/src/main/java/com/sihui/collection/tree/LiRedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection-demo/src/main/java/com/sihui/collection/tree/LiRedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/observer/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/observer/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/observer/myobserver/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/observer/myobserver/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/observer/spring/event/OrderMessageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/observer/spring/event/OrderMessageEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/proxy/dynamicProxy/CglibDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/sihui/design/patterns/proxy/dynamicProxy/CglibDynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/io/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/main/java/com/sihui/demo/netty/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/MybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/MybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/sihui/mybatis/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/maven/repository" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/maven/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="user-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583160803721" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b1f26e6-1b3d-49bb-bbda-40ccb5b7e3a3" name="Default Changelist" comment="" />
+      <created>1583160711696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583160711696</updated>
+      <workItem from="1583160713716" duration="92000" />
+      <workItem from="1583293848108" duration="35000" />
+      <workItem from="1594977190369" duration="58000" />
+      <workItem from="1596537987345" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="204000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

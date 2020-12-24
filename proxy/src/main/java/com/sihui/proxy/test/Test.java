@@ -6,6 +6,8 @@ import com.sihui.proxy.proxy.UserStaticProxy;
 import com.sihui.proxy.service.UserService;
 import com.sihui.proxy.service.impl.UserServiceImpl;
 
+import java.util.List;
+
 /**
  * @ProjectName: proxy
  * @Package: com.sihui.proxy.test
@@ -31,7 +33,7 @@ public class Test {
          */
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         UserService userService = new DynamicProxy(new UserServiceImpl()).getProxy();
-        User user = userService.getUser();
+        List<User> user = userService.getAllUser();
         System.out.println("result:" + user.toString());
     }
 }

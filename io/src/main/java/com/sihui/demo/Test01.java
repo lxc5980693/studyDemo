@@ -1,12 +1,12 @@
 package com.sihui.demo;
 
+import io.netty.util.NettyRuntime;
+
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -20,13 +20,14 @@ import java.util.Date;
  */
 public class Test01 {
     public static void main(String[] args) {
-        String fileName = "/Users/lixuanchen/Desktop/msg";
-        try {
-            serialize(fileName);
-            deserialize(fileName);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        String fileName = "/Users/lixuanchen/Desktop/msg";
+//        try {
+//            serialize(fileName);
+//            deserialize(fileName);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+        System.out.println(NettyRuntime.availableProcessors());
     }
 
     private static void deserialize(String fileName) throws IOException, ClassNotFoundException {

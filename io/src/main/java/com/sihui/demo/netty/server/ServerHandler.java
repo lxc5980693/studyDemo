@@ -1,7 +1,5 @@
 package com.sihui.demo.netty.server;
 
-import com.alibaba.fastjson.JSONObject;
-import com.sihui.demo.MsgEntity;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
@@ -22,6 +20,8 @@ public class ServerHandler extends SimpleChannelInboundHandler<Object> {
      * @param ctx
      * @param msg
      * @throws Exception
+     * al
+     * e
      */
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {

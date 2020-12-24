@@ -4,6 +4,8 @@ import com.sihui.api.dto.UserEntity;
 import com.sihui.api.service.UserService;
 import com.sihui.dubbo.server.proxy.RpcClientProxy;
 
+import java.util.ServiceLoader;
+
 /**
  * @ProjectName: dubbouser
  * @Package: com.sihui.dubbo.order.remote.api
@@ -18,5 +20,6 @@ public class Consumer {
         UserService proxy = new RpcClientProxy().createProxy(UserService.class);
         UserEntity user = proxy.getUser("1");
         System.out.println(user);
+        ServiceLoader
     }
 }

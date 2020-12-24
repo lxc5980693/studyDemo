@@ -23,15 +23,15 @@ public class ClientA {
     private static Socket socket;
 
     public static void main(String[] args) {
-        sendMessage(DEFAULT_PORT, Thread.currentThread().getName() + "给服务端发送消息：湖人总冠军");
+        sendMessage(DEFAULT_PORT);
     }
 
-    private static void sendMessage(int port, String msg) {
+    private static void sendMessage(int port) {
         try {
             socket = new Socket();
-            InetSocketAddress inetSocketAddress = new InetSocketAddress(InetAddress.getLocalHost(),DEFAULT_PORT);
+            InetSocketAddress inetSocketAddress = new InetSocketAddress(InetAddress.getLocalHost(), port);
             socket.connect(inetSocketAddress);
-            while (true){
+            while (true) {
                 Scanner scanner = new Scanner(System.in);
                 socket.getOutputStream().write(scanner.next().getBytes());
             }

@@ -46,21 +46,21 @@ public class Test {
 //        System.out.println(convert);
 //        System.out.println(convert1);
 //        System.out.println(Long.MAX_VALUE);
-        System.out.println("主线程开始执行。。。");
-        long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 10; i++) {
-            new Thread(() -> {
-                longAdder.increment();
-                System.out.println(Thread.currentThread().getName() + ": " + longAdder.longValue());
-                countDownLatch.countDown();
-            }).start();
-        }
-        try {
-            countDownLatch.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("子线程全部执行完毕，主线程继续执行。。。耗时:" + (System.currentTimeMillis() - startTime));
+//        System.out.println("主线程开始执行。。。");
+//        long startTime = System.currentTimeMillis();
+//        for (int i = 0; i < 10; i++) {
+//            new Thread(() -> {
+//                longAdder.increment();
+//                System.out.println(Thread.currentThread().getName() + ": " + longAdder.longValue());
+//                countDownLatch.countDown();
+//            }).start();
+//        }
+//        try {
+//            countDownLatch.await();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        System.out.println("子线程全部执行完毕，主线程继续执行。。。耗时:" + (System.currentTimeMillis() - startTime));
     }
 
 }

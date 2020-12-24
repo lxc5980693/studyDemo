@@ -2,14 +2,13 @@ package com.sihui.design.patterns.observer.spring.event;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.context.ApplicationEvent;
-import org.springframework.stereotype.Component;
 
 /**
  * @ProjectName: design-patterns
  * @Package: com.sihui.design.patterns.observer.spring
  * @ClassName: OrderMessageEvent
  * @Author: lixuanchen
- * @Description: 群发消息作为一个时间
+ * @Description: 群发消息作为一个事件
  * @Date: 2020-03-07  15:53
  * @Version: 1.0
  */

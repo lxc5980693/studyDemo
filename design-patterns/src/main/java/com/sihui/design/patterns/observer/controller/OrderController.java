@@ -31,4 +31,15 @@ public class OrderController {
         applicationContext.publishEvent(orderMessageEvent);
         return "success";
     }
+
+    @RequestMapping("/addOrder")
+    public String whileError() {
+//        while (true){
+//            JSONObject jsonObject = new JSONObject();
+//            jsonObject.put("name", "程壮壮");
+//            jsonObject.put("age", 14);
+//            jsonObject.put("price", 1399);
+//        }
+        return "success";
+    }
 }

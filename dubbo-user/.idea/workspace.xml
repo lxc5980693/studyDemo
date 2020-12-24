@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="777440f4-9514-406b-82f9-2bfc663cfd24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../agent-demo/src/main/java/com/sihui/agent/demo/service/TestAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/.idea/artifacts/agent_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agent/src/com/sihui/agent/TestAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-patterns/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/test-t_user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8e11a206-7661-404f-91bf-7f51d663c9c9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/src/main/java/com/sihui/firstspringbootapplicationgui/FirstSpringBootApplicationGuiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/src/test/java/com/sihui/firstspringbootapplicationgui/FirstSpringBootApplicationGuiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application/src/main/java/com/sihui/spring/boot/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application/src/test/java/com/sihui/spring/boot/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/base/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/base/Fetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/base/FetcherCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/base/MyFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/base/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/localThread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/localThread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/nio/ObjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main/src/com/sihui/main/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/model/UserBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/model/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sihui_thread/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sihui_thread/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sihui_thread/src/com/sihui/lock/MyLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm_demo/src/main/java/com/lixuanchen/algorithm/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm_demo/src/main/java/com/lixuanchen/algorithm/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-demo/src/main/java/com/sihui/collection/tree/LiRedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection-demo/src/main/java/com/sihui/collection/tree/LiRedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/observer/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/observer/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/observer/myobserver/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/observer/myobserver/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/observer/spring/event/OrderMessageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/observer/spring/event/OrderMessageEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/proxy/dynamicProxy/CglibDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../design-patterns/src/main/java/com/sihui/design/patterns/proxy/dynamicProxy/CglibDynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../io/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/netty/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/MybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/MybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/com/sihui/mybatis/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-user-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-order-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-order-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-user-api/src/main/java/com/sihui/api/dto/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/UserProductor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/rpc/RpcServer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1032">
+              <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/handle/DubboServerHandle.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ServiceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/ServiceLoader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/proxy/RpcClientProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/impl/UserServiceRemoteImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/service/impl/TUserServiceImpl.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/service/impl/TUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/entity/TUser.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/sever/OrderService.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/sever/impl/OrderServiceImok.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/sever/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/UserService.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/UserRemoteService.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/proxy/rpcClientProxy.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/Test.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/UserProductor.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-api/src/main/java/com/sihui/api/service/UserService.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/impl/UserServiceRemoteImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-user-api/src/main/java/com/sihui/api/dto/UserEntity.java" />
+        <option value="$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/Consumer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/maven/repository" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/maven/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="sever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="javac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="tools.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="javac" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sihui:netty-dubbo-server:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-dubbo-server-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sihui" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-all:4.1.42.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-all:4.1.42.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.42.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-all:4.1.42.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.42.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-all:4.1.42.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.42.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-all:4.1.42.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.42.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.netty:netty-all:4.1.42.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.42.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="dubbouser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="8e11a206-7661-404f-91bf-7f51d663c9c9" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596591037927" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sihui.dubbo.order.remote.api.Consumer" />
+      <module name="dubbo-order-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sihui.dubbo.order.remote.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProductor" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sihui.api.UserProductor" />
+      <module name="dubbo-user-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sihui.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceRemoteImpl" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sihui.dubbo.order.remote.api.impl.UserServiceRemoteImpl" />
+      <module name="dubbo-order-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sihui.dubbo.order.remote.api.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserProductor" />
+      <item itemvalue="Application.UserServiceRemoteImpl" />
+      <item itemvalue="Application.Consumer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.UserProductor" />
+        <item itemvalue="Application.UserServiceRemoteImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="777440f4-9514-406b-82f9-2bfc663cfd24" name="Default Changelist" comment="" />
+      <created>1583160873580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583160873580</updated>
+      <workItem from="1583160875187" duration="1194000" />
+      <workItem from="1583293871201" duration="791000" />
+      <workItem from="1583420085752" duration="8000" />
+      <workItem from="1585887023118" duration="416000" />
+      <workItem from="1586159381382" duration="3664000" />
+      <workItem from="1586163776201" duration="3959000" />
+      <workItem from="1586682426088" duration="14671000" />
+      <workItem from="1593835024007" duration="815000" />
+      <workItem from="1594977316965" duration="914000" />
+      <workItem from="1596538019841" duration="1376000" />
+    </task>
+    <task id="LOCAL-00001" summary="手写dubbo provider和consumer端">
+      <created>1586223997546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586223997546</updated>
+    </task>
+    <task id="LOCAL-00002" summary="手写dubbo user生产者和order消费者代码">
+      <created>1586693370597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586693370597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27808000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37795275" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31846344" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="11" weight="0.32961586" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32961586" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32961586" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="手写dubbo provider和consumer端" />
+    <MESSAGE value="手写dubbo user生产者和order消费者代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="手写dubbo user生产者和order消费者代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/handle/DubboServerHandle.class</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/handle/DubboServerHandle.class</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a572a411-a569-4594-8388-c4b869bdf90c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8e11a206-7661-404f-91bf-7f51d663c9c9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/resources/mapper/TUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/service/impl/UserServiceImpl.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2884">
+          <caret line="271" column="5" lean-forward="true" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
+          <folding>
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+          <folding>
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-common/1.0-SNAPSHOT/netty-dubbo-common-1.0-SNAPSHOT.jar!/com/sihui/dubbo/annotation/RpcAnnotation.class" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/entity/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/proxy/rpcClientProxy.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-order-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/sever/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/sever/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="44" column="21" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/101tec/zkclient/0.10/zkclient-0.10-sources.jar!/org/I0Itec/zkclient/ZkClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="459" column="16" selection-start-line="459" selection-start-column="16" selection-end-line="459" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/regist/ServiceRegister.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/regist/impl/ServiceRegisterImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/dao/TUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/dicover/impl/ServiceDiscoverImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/handle/DubboClientHandle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/service/TUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/service/impl/TUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/UserRemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/req/RpcRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/channel/nio/NioEventLoop.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="305" selection-start-line="305" selection-end-line="305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/channel/nio/AbstractNioByteChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="735" selection-start-line="735" selection-end-line="735" />
+          <folding>
+            <element signature="e#39653#39654#0" expanded="true" />
+            <element signature="e#39701#39702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-api/src/main/java/com/sihui/api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-api/src/main/java/com/sihui/api/dto/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/rpc/RpcServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/handle/DubboServerHandle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/maven/repository/com/sihui/netty-dubbo-server/1.0-SNAPSHOT/netty-dubbo-server-1.0-SNAPSHOT.jar!/com/sihui/dubbo/server/proxy/RpcClientProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/impl/UserServiceRemoteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-user-server/src/main/java/com/sihui/api/UserProductor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/ServiceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-order-server/src/main/java/com/sihui/dubbo/order/remote/api/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dubbo-user-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.projectlombok:lombok:1.18.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

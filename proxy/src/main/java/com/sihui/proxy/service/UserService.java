@@ -2,6 +2,8 @@ package com.sihui.proxy.service;
 
 import com.sihui.proxy.entity.User;
 
+import java.util.List;
+
 /**
  * @ProjectName: proxy
  * @Package: sihui.proxy.service
@@ -22,4 +24,15 @@ public interface UserService {
      *  @param
      */
     User getUser();
+
+    /**
+     *  @Author  lixuanchen
+     *  @Version    1.0
+     *  @Description    获取用户信息
+     *  @Return  com.sihui.proxy.entity.User
+     *  @Exception
+     *  @Date  2019-12-09  15:56
+     *  @param
+     */
+    List<User> getAllUser();
 }

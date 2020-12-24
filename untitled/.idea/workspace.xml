@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbabdd9e-d776-4b29-9684-077516a19d7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../collection-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design-patterns/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/EasyCodeConfig/test-t_user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/dataSources/8e11a206-7661-404f-91bf-7f51d663c9c9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/src/main/java/com/sihui/firstspringbootapplicationgui/FirstSpringBootApplicationGuiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application-gui/src/test/java/com/sihui/firstspringbootapplicationgui/FirstSpringBootApplicationGuiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application/src/main/java/com/sihui/spring/boot/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-spring-boot-application/src/test/java/com/sihui/spring/boot/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/nio/ObjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/dictionaries/lixuanchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dubbo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-demo/src/main/java/com/sihui/collection/tree/LiRedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection-demo/src/main/java/com/sihui/collection/tree/LiRedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../io/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../io/src/main/java/com/sihui/demo/Test01.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="243" />
+    <option name="y" value="167" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589601124244" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbabdd9e-d776-4b29-9684-077516a19d7e" name="Default Changelist" comment="" />
+      <created>1589600812664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589600812664</updated>
+      <workItem from="1589600815473" duration="311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="311000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

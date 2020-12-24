@@ -16,6 +16,7 @@ public class Test {
     public static void main(String[] args) {
         //创建一个具体的主题
         WeChatSubject weChatSubject = new WeChatSubject();
+        //
         weChatSubject.addObServer(new UserObServer("李呱呱"));
         weChatSubject.addObServer(new UserObServer("程壮壮"));
         weChatSubject.notifyObServers("思慧教育开课啦！！！！！");

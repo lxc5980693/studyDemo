@@ -1,7 +1,9 @@
 package com.lixuanchen.algorithm;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @ProjectName: algorithm_demo
@@ -15,8 +17,10 @@ import java.util.List;
 public class Demo05 {
 
     public static void main(String[] args) {
-        String babad = test("aaabaaaa");
-        System.out.println(babad);
+        String testStr = "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg";
+        System.out.println("str length: " + testStr.length());
+        String babad = test(testStr);
+        System.out.println(babad + "长度为：" + babad.length());
     }
 
     /**
@@ -39,25 +43,59 @@ public class Demo05 {
         if (s.trim() == "" || s.length() == 0) {
             return "";
         }
-        List<String> list = new ArrayList<String>();
-        char[] chars = s.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            for (int j = chars.length - 1; j > i; j--) {
-                if (chars[i] == chars[j]) {
+        String str = "";
+        StringBuffer stringBuffer = new StringBuffer();
+        for (int i = 0; i < s.length(); i++) {
+            if (s.length() - i <= str.length()){
+                break;
+            }
+            for (int j = s.length() - 1; j > i; j--) {
+                if (j - i + 1 <= str.length()){
+                    break;
+                }
+                if (s.charAt(i) == s.charAt(j)) {
                     String substring = s.substring(i, j + 1);
-                    if (new StringBuffer(substring).reverse().toString().equals(substring)) {
-                        if (list.size() == 0) {
-                            list.add(substring);
-                        } else if (substring.length() > list.get(list.size() - 1).length()) {
-                            list.add(substring);
+                    if (stringBuffer.length() > 0){
+                        stringBuffer.delete(0, stringBuffer.length());
+                    }
+                    stringBuffer.append(substring);
+                    if (stringBuffer.reverse().toString().equals(substring)) {
+                        if (str.length() > 0) {
+                            str = substring;
+                            break;
+                        } else if (substring.length() > str.length()) {
+                            str = substring;
+                            System.out.println(substring + "长度为：" + substring.length());
+                            break;
                         }
                     }
                 }
             }
         }
-        if (list.size() == 0) {
+        if (str.length() == 0) {
             return s.substring(0, 1);
         }
-        return list.get(list.size() - 1);
+        return str;
+    }
+
+    public static String test2(String s){
+        char[] chars = s.toCharArray();
+        int startIndex = 0;
+        int endIndex = chars.length -1;
+        String str = "";
+        boolean flag = true;
+        StringBuffer stringBuffer = new StringBuffer();
+        while (flag){
+            String substring = s.substring(startIndex, endIndex + 1);
+            if (stringBuffer.length() > 0){
+                stringBuffer.delete(0, stringBuffer.length());
+            }
+            stringBuffer.append(substring);
+            if (stringBuffer.reverse().equals(substring) && substring.length() > str.length()){
+                str = substring;
+            }
+            startIndex++;
+        }
+        return str;
     }
 }

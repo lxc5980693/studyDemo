@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
  * @Version: 1.0
  */
 public class CglibDynamicProxy implements MethodInterceptor {
-
+    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("我是orderServiceClass的代理类。。。。。之前执行的方法");
         Object o1 = methodProxy.invokeSuper(o, objects);
